@@ -21,6 +21,7 @@ numpy==1.18.1
 <b>Example of a run:</b>
 
 python train.py
+
 python evaluate.py
 
 Other python modules are used by train / evaluate.
@@ -29,4 +30,5 @@ Other python modules are used by train / evaluate.
 <b>Example of using arguments as inputs</b>
 
 python train.py -d cifar_10_dataset/train -o result -p 1 -nbatch 256 -e 20
+
 python evaluate.py -d cifar_10_dataset/test -m result/model.h5 -o result/result.png -p 1 -nx 20 -ny 20
